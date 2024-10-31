@@ -1,0 +1,56 @@
+*, *:before, *:after {}
+
+.nutrition-wrap {
+    margin-bottom: 20px;
+}
+
+.nutrition-canvas-wrap {
+    max-height: 200px;
+    max-width: 200px;
+    float: left;
+    position: relative;
+}
+.nutrition-calories {
+    position: absolute;
+    top: calc(50% - 0.8em);
+    width: 100%;
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: bold;
+    line-height: 1em;
+}
+.nutrition-calories label {
+    display: block;
+    font-weight: normal;
+    font-size: 0.4em;
+    margin-top: 0.4em;
+    line-height: 1;
+}
+.nutrition-bars {
+    min-width: 80px;
+    width: calc(100% - 240px);
+    float: right;
+    margin: 20px 0 0 0;
+}
+.nutrition-bars .labels-wrap {
+    font-weight: bold;
+    margin-bottom: 4px;
+    display: block;
+}
+.labels-wrap .key {
+    float: left;
+    display: block;
+}
+.labels-wrap .grams {
+    float: right;
+    display: block;
+}
+.nutrition-bars-inner {
+    margin-bottom: 20px;
+}
+.bar-outer, .bar-inner {
+    height: 7px;
+}
+.bar-outer {
+    background: rgba(0,0,0,0.1);
+}
